@@ -1,7 +1,7 @@
 /*Default Font Formatting*/
 body {
     width: 100%;
-    height: auto;
+    height: 100%;
     font-family: Arial, sans-serif;
     font-size: 20px;
     background-color: #f4f4f4;
@@ -18,7 +18,7 @@ header {
     background-color: #333;
     color: #fff;
     text-align: left;
-    position: absolute;
+    position: fixed;
     padding: 20px 0 20px;
     top: 0;
     left: 0;
@@ -58,11 +58,35 @@ header h2 {
     font-size: 1em;
 }
 
-.container { /*Ensures elements inside are placed column wise*/
+.content .container { /*Ensures elements inside are placed column wise*/
     padding-top: 40px;
     display: flex;
     gap: 20px; 
 }
+
+/*Portfolio Section Formatting*/
+.content .portfolio_text {
+    padding-top: 40px;
+    width: calc((100%)/2);
+    height: auto;
+}
+
+.content .portfolio_text h1 {
+    text-align: center;
+}
+
+.content .portfolio_text h2 {
+    text-align: center;
+    color:dimgrey;
+    font-size: 0.75em;
+}
+
+.content .portfolio_text p {
+    text-indent: 30px;
+}
+
+
+
 
 /* Picture Formatting*/
 .about_me_picture {
@@ -72,13 +96,19 @@ header h2 {
     border: 3px solid #333;
 }
 
+.portfolio_picture {
+    width: calc((100% - 300px)/2);
+    height: 100%hw;
+}
+
 /*Link Sidebar formatting*/
 .sidebar {
     width: 300px;
     height: 100%;
     background-color: #414040;
     padding-top: 120px;
-    position: absolute;
+    margin: 0px;
+    position: fixed;
     top: 0;
     right: 0;
     overflow-x: hidden;
