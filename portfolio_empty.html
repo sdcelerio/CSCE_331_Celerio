@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sean Daniel Celerio: A Aspriring Engineer</title>
+
+    <!--Setup metadata*/-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "author" content = "Sean Daniel Celerio">
+    <meta name = description content = "Portfolio for an academic personal website for CSCE 331 at Texas A&M University">
+</head>
+
+<body>
+    <!--Title Contents-->
+    <header>
+        <h1 style = "text-align: center; font-size: 2em;"> Technical Portfolio </h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class = "content">
+        <div alt = "Project #1" class = "container"> 
+            <div class = "portfolio_text">
+                <h1> 200Wh Battery Pack </h1>
+                <h2> Ongoing since Spring 2024 </h2>
+                <p style = "padding-left: 20px;"> 
+                    A 3D printed battery pack with 15 18650 Li-Ion batteries that can provide up to 17.5 Ah of power, which can power up to 4 phones.
+                    The battery pack features 4 USB-A ports, a 150 Watt AC wall port, wireless phones charging, and a variable DC port.
+                    To function, the circuit ultilizes multiple relays, a power-inverter to convert DC to AC power, DC buck converter with constant current, 
+                    and a BMS (Battery management system) chip to safetly charge the batteries.
+                </p>
+            </div>
+            
+            <img src = "images/Battery Pack.png" class = "portfolio_picture">
+        </div>
+
+        <div alt = "Project #2" class = "container"> 
+            <img src = "images/MM_PCB.png" class = "portfolio_picture">
+            
+            <div style = "padding-left:60px;" class = "portfolio_text">
+                <h1> Microcontroller w/ Sensor PCB </h1>
+                <h2> Spring 2024 - Summer 2024</h2>
+                <p>
+                    This PCB design was engineered for the "Mouseless Mouse", a glove-like device that functions like a mouse.
+                    Furthermore, the device supports app functionality and a wireless connection through bluetooth.
+                    A PCB design with a SEEED Studio Xiao Microcontroller combined with a BNO086 sensor. 
+                    While powered, the sensor will send data to the microcontroller, which performs specific calculations and inputs to the machine it is connected to. 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Side Bar with links to pages-->
+    <div class = "sidebar"> 
+        <h1> Navigation Bar </h1>
+        <a href = "index_empty.html"> About Me </a>
+        <a href = "portfolio_empty.html"> Technical Portfolio </a>
+        <a href = "skills_empty.html"> Qualifications/Skills </a>
+        <a href = "services_empty.html"> Services</a>
+        <a href = "ai_empty.html"> AI Generated Page </a>
+        <a href = "https://github.com/sdcelerio/CSCE_331_Celerio.git"> GitHub Repository</a>
+    </div>
+</body>
+</html>
