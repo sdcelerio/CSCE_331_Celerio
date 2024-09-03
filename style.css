@@ -55,7 +55,7 @@ header h2 {
 }
 
 .content p{
-    font-size: 1em;
+    font-size: 1.25em;
 }
 
 .content .container { /*Ensures elements inside are placed column wise*/
@@ -83,6 +83,7 @@ header h2 {
 
 .content .portfolio_text p {
     text-indent: 30px;
+    font-size: 1.5em;
 }
 
 /*Skills Section Formatting*/
@@ -105,6 +106,23 @@ header h2 {
 
 .content .skills_text p {
     text-align: center;
+}
+
+/*Services Section Formatting*/
+.container .services_text {
+    padding-top: 40px;
+    width: calc((100vw - 300px)/2);
+    height: auto;
+}
+
+.container .services_text h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+.container .services_text p {
+    text-indent: 40px;
+    font-size: 1.15em;
 }
 
 /* Picture Formatting*/
